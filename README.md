@@ -136,6 +136,17 @@ http://127.0.0.1:8501
 - flooding / high-rate traffic bursts
 - replay-like repeated messages
 
+## Formal analysis artifacts
+
+This project includes formal engineering artifacts in the `docs/` folder:
+
+- [docs/TARA.md](docs/TARA.md) — threat analysis and risk assessment
+- [docs/HARA.md](docs/HARA.md) — hazard and risk assessment
+- [docs/FMEA.md](docs/FMEA.md) — failure mode and effects analysis
+- [docs/requirements_traceability.md](docs/requirements_traceability.md) — traceability between requirements, code, and tests
+
+These documents map the threat assumptions to the actual implementation in the codebase, including the IDS logic, gateway response, and automated tests.
+
 ## Notes
 
 This project is intentionally deterministic and explainable rather than ML-driven. It is designed to communicate a rule-based automotive security concept clearly and to be easy to explain in an interview or technical review.
